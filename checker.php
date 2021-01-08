@@ -1,21 +1,5 @@
 <?php
-
-/*include("./class/first_class.php");
-
-$checker = new first_oops();
-
-$checker->select();
-*/
-
-$arr1 = array(); 
-ob_start();
-for($a=1; $a <= 20; $a++){
-	$arr1[$a] = rand(1,50);
-}
-
-$arr = ob_get_contents();
-
-ob_end_clean();
+echo "lassa pyaaz";
 //unset($arr1[0]);
 
 //$arr = $arr1;
