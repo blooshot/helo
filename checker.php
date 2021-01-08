@@ -1,5 +1,23 @@
 <?php
-echo "lassa pyaaz";
+
+/*include("./class/first_class.php");
+
+$checker = new first_oops();
+
+$checker->select();
+*/
+
+$arr1 = array(); 
+ob_start();
+for($a=1; $a <= 20; $a++){
+	$arr1[$a] = rand(1,50);
+}
+
+echo"ladeya";
+
+$arr = ob_get_contents();
+
+ob_end_clean();
 //unset($arr1[0]);
 
 //$arr = $arr1;
