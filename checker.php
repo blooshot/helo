@@ -6,6 +6,7 @@ $checker = new first_oops();
 
 $checker->select
 */
+echo 'lawdeya';
 
 $arr1 = array(); 
 ob_start();
