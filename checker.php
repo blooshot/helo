@@ -4,7 +4,7 @@
 
 $checker = new first_oops();
 
-$checker->select();
+$checker->select
 */
 
 $arr1 = array(); 
